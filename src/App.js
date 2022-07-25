@@ -17,34 +17,24 @@ function App() {
       <Intro />
       <Skillset />
       <Processes />
-      <RecentProjects/>
+      <RecentProjects />
       <Carrer />
       <AboutMe />
-      <CaseStudies/>
+      <br />
+      <CaseStudies />
       <div>
-        WHATS NEXT
-        {/*
-            
-            ###Whats Next section### 
-          back image
-            Title
-            description
-            <FooterButto/>
-          
-            
-
-        */}
-      </div>
-      <div>
-        FOOTER
-        {/*
-            
-            ###Footer section### 
-          
-        test logo
-            
-
-        */}
+        <MiniTitle
+          text={"What's Next"} />
+        <h1 className='text-[38px] font-bold  text-center leading-10 mb[-30px] '>Lets work together.</h1>
+        <p className='px-2 mx-4 mt-4 text-center'>
+          If you'd like to talk about a project you want help with or need an advice about product design,
+          just drop me a message at </p><strong>nathan@ojieame.design</strong>
+         <p className='px-2 text-center mx-4'> I'm currently Available for any design systems projects, dashboard designs or landing pages gigs
+        </p>
+        <FooterButton
+        text={ 'write me an email'}
+        visible={true}/>
+        
       </div>
     </div>
   );
