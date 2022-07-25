@@ -1,4 +1,5 @@
 import FooterButton from "./FooterButton"
+import  {FireIcon} from '@heroicons/react/solid'
 
 import ProjectCards from "./ProjectCards"
 const RecentProjects = () => {
@@ -14,6 +15,7 @@ const RecentProjects = () => {
         </div>
         <FooterButton
         text={"MY Dribble"}
+        icon= {'FireIcon'}
         visible={true}/>
     </div>
   )

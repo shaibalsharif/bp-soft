@@ -12,7 +12,7 @@ import CaseStudies from './components/CaseStudies';
 
 function App() {
   return (
-    <div className="App flex flex-col justify-around items-center">
+    <div className="App ">
       <Header />
       <Intro />
       <Skillset />
