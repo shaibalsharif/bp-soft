@@ -1,6 +1,6 @@
 import FooterButton from "./FooterButton"
 
-import ProjectCard from "./ProjectCard"
+import ProjectCards from "./ProjectCards"
 const RecentProjects = () => {
   return (
     <div>
@@ -9,7 +9,7 @@ const RecentProjects = () => {
         <span className='font-bold text-[#689af8] text-[35px] pl-4'>+</span></h1>
 
         <div>
-           <ProjectCard/>
+           <ProjectCards/>
            
         </div>
         <FooterButton
