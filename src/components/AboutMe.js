@@ -9,8 +9,9 @@ const AboutMe = () => {
       text={'about me'} />
       <h1 className='text-[38px] font-bold pr-20 pl-4 text-start leading-10 mb[-30px] '
       >Designing with passion for Problem Solving</h1>
+     <br/>
       <FooterButton
-      
+     
       text={'follow Me Instagram'}
       visible={true}/>
     <p className='text-justify p-4 mt-6 text-[#989898]'>

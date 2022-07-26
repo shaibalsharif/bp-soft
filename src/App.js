@@ -16,11 +16,15 @@ function App() {
       <Header />
       <Intro />
       <Skillset />
+      <br/>
       <Processes />
+      <br/>
       <RecentProjects />
+      <br/>
       <Carrer />
+      <br/>
       <AboutMe />
-      <br />
+      <br/>
       <CaseStudies />
       <div>
         <MiniTitle
@@ -29,12 +33,12 @@ function App() {
         <p className='px-2 mx-4 mt-4 text-center'>
           If you'd like to talk about a project you want help with or need an advice about product design,
           just drop me a message at </p><strong>nathan@ojieame.design</strong>
-         <p className='px-2 text-center mx-4'> I'm currently Available for any design systems projects, dashboard designs or landing pages gigs
+        <p className='px-2 text-center mx-4'> I'm currently Available for any design systems projects, dashboard designs or landing pages gigs
         </p>
         <FooterButton
-        text={ 'write me an email'}
-        visible={true}/>
-        
+          text={'write me an email'}
+          visible={true} />
+
       </div>
     </div>
   );

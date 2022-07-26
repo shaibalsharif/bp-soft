@@ -3,9 +3,9 @@ import FooterButton from './FooterButton'
 
 const Carrer = () => {
   return (
-    <div className=''>
+    <div className='mt-8'>
       <h1 className='text-[51px] font-bold  text-center mb[-30px] '
-      >Carrer <span className='font-bold text-[#689af8] text-[35px] pl-4'>+</span></h1>
+      >Career <span className='font-bold text-[#689af8] text-[35px] pl-4'>+</span></h1>
       <br></br>
       <FooterButton
         text={'get cv'}

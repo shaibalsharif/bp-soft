@@ -6,16 +6,19 @@ const Skillset = () => {
             <MiniTitle
                 text="My Skillset"
             />
-            <div className='text-[38px] font-bold mx-[18%] text-center'>
-                <h1 className='text-last-center' >Graphic Design, Interface Design</h1>
+            <div className='text-[38px] font-bold leading-10 mt-4'>
+                <h1 className='' >Graphic Design, Interface Design</h1>
                 <h1 className='text-center'>&amp;</h1>
                 <h1 className=''>
                     User Experience</h1>
-            </div>
-            <FooterButton
+            </div> 
+          <br/>
+                <FooterButton
                 text={"My process"}
-                visible={'true'} />
-            <p className='max-w-[265px] mt-8 text-justify md:max-w-[350px] text-[#8f8f8f]' >I specialize in building complex web applications, leading front-end teams,
+                visible={'true'} /> 
+           
+           
+            <p className=' mt-16 text-justify mx-6' >I specialize in building complex web applications, leading front-end teams,
                 digital product design and developing visual design systems. I enjoy creating
                 effortless user experience and designing delightful digital products. The entire
                 process of going from a concept to release and gathering user’s feedback on either client’s or
@@ -23,15 +26,6 @@ const Skillset = () => {
                 I worked with numerous clients from all around the world from early startups to well-established companies.
                 I always seek new opportunities for cooperation on projects around interesting dashboards, design
                 systems or landing pages. Let’s create something awesome together!</p>
-            {/*
-        
-        ###Experience section### 
-        mini hint
-        Title
-        description
-       <FooterButton/>
-
-    */}
         </div>
     )
 }
