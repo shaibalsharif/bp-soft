@@ -14,7 +14,9 @@ function App() {
   return (
     <div className="App ">
       <Header />
+      <br/>
       <Intro />
+      <br/>
       <Skillset />
       <br/>
       <Processes />
@@ -29,7 +31,7 @@ function App() {
       <div>
         <MiniTitle
           text={"What's Next"} />
-        <h1 className='text-[38px] font-bold  text-center leading-10 mb[-30px] '>Lets work together.</h1>
+        <h1 className='text-[38px] font-bold  mx-4 leading-10 mb[-30px] '>Lets work together.</h1>
         <p className='px-2 mx-4 mt-4 text-center'>
           If you'd like to talk about a project you want help with or need an advice about product design,
           just drop me a message at </p><strong>nathan@ojieame.design</strong>

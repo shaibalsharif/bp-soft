@@ -2,23 +2,27 @@ import FooterButton from './FooterButton'
 import MiniTitle from './MiniTitle'
 const Skillset = () => {
     return (
-        <div>
+        <div className='mt-4 md:flex justify-between items-center'>
+            <div className='md:w-[50%] md:text-start md:mx-4'>
             <MiniTitle
                 text="My Skillset"
             />
-            <div className='text-[38px] font-bold leading-10 mt-4'>
-                <h1 className='' >Graphic Design, Interface Design</h1>
-                <h1 className='text-center'>&amp;</h1>
-                <h1 className=''>
-                    User Experience</h1>
+            <div className='text-[38px] font-bold leading-10 mt-4 '>
+                <h1 className=' md:text-start' >Graphic Design, Interface Design <span className='block md:inline'>&amp;</span> User Experience</h1>
             </div> 
           <br/>
+            
                 <FooterButton
+                classitem={'md:text-start'}
                 text={"My process"}
-                visible={'true'} /> 
+                visible={'true'} />  
+            
+               
+            </div>
            
            
-            <p className=' mt-16 text-justify mx-6' >I specialize in building complex web applications, leading front-end teams,
+           
+            <p className=' mt-16 text-justify md:w-[58%] text-[18px] leading-[26px] p-4' >I specialize in building complex web applications, leading front-end teams,
                 digital product design and developing visual design systems. I enjoy creating
                 effortless user experience and designing delightful digital products. The entire
                 process of going from a concept to release and gathering user’s feedback on either client’s or
