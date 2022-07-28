@@ -1,5 +1,5 @@
 import FooterButton from "./FooterButton"
-import { FireIcon } from '@heroicons/react/solid'
+import { GlobeAltIcon } from '@heroicons/react/solid'
 
 import ProjectCards from "./ProjectCards"
 const RecentProjects = () => {
@@ -18,7 +18,7 @@ const RecentProjects = () => {
       <FooterButton
       classitem="md:hidden"
         text={"MY Dribble"}
-        icon={'FireIcon'}
+        icon={<GlobeAltIcon className=" ml-4  h-4 w-4 inline mr-4"/>}
         visible={true} />
     </div>
   )

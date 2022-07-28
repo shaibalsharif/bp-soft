@@ -9,37 +9,40 @@ import RecentProjects from './components/RecentProjects';
 import Carrer from './components/Carrer';
 import AboutMe from './components/AboutMe';
 import CaseStudies from './components/CaseStudies';
-
+import { textContents } from './utils/datalist'
 function App() {
+
   return (
-    <div className="App ">
+    <div className="App md:mx-[10%]">
       <Header />
-      <br/>
-      <Intro />
-      <br/>
-      <Skillset />
-      <br/>
+      <br />
+      <Intro text={textContents.introText} />
+      <br />
+      <Skillset text={textContents.skillText} />
+      <br />
       <Processes />
-      <br/>
+      <br />
       <RecentProjects />
-      <br/>
+      <br />
       <Carrer />
-      <br/>
-      <AboutMe />
-      <br/>
+      <br />
+      <AboutMe text={textContents.aboutMeText} />
+      <br />
       <CaseStudies />
-      <div>
+      <br />
+      <div className='my-10 '>
         <MiniTitle
           text={"What's Next"} />
         <h1 className='text-[38px] font-bold  mx-4 leading-10 mb[-30px] '>Lets work together.</h1>
         <p className='px-2 mx-4 mt-4 text-center'>
-          If you'd like to talk about a project you want help with or need an advice about product design,
-          just drop me a message at </p><strong>nathan@ojieame.design</strong>
-        <p className='px-2 text-center mx-4'> I'm currently Available for any design systems projects, dashboard designs or landing pages gigs
-        </p>
-        <FooterButton
-          text={'write me an email'}
-          visible={true} />
+          {textContents.nextText[0]} </p><strong><a href='mailto:shaibalsharif@gmail.com'>shaibalsharif@gmail.com</a></strong>
+        <p className='px-2 text-center mx-4 mb-8'>   {textContents.nextText[1]}</p>
+        <a href='mailto:shaibalsharif@gmail.com'>
+          <FooterButton
+
+            text={'write me an email'}
+            visible={true} />
+        </a>
 
       </div>
     </div>
