@@ -33,11 +33,16 @@ const ProjectCards = () => {
               weamobile
             </h1>
           </div>
-          <FooterButton
-            classitem="absolute mt-[50px]"
-            text={"MY Dribble"}
-            icon={<GlobeAltIcon className=" ml-4  h-4 w-4 inline mr-4"/>}
-            visible={false} />
+          
+          <a href="https://github.com/shaibalsharif">      <FooterButton
+      classitem="absolute mt-[50px]"
+        text={"MY Github"}
+        icon={<GlobeAltIcon className=" ml-4  h-4 w-4 inline mr-4"/>}
+        visible={true} />
+        </a>
+
+
+            
         </div>
         <div className='basis-[50%]'>
           <div className='Image-2 m-[20px] group relative'>
@@ -77,11 +82,12 @@ const ProjectCards = () => {
             </h1>
           </div>
 
-          <FooterButton
-            classitem="absolute mt-[50px]"
-            text={"MY Dribble"}
-            icon={<GlobeAltIcon className=" ml-4  h-4 w-4 inline mr-4"/>}
-            visible={false} />
+          <a href="https://github.com/shaibalsharif">      <FooterButton
+      classitem="absolute mt-[50px]"
+        text={"MY Github"}
+        icon={<GlobeAltIcon className=" ml-4  h-4 w-4 inline mr-4"/>}
+        visible={true} />
+        </a>
 
         </div>
         <div className='basis-[50%] '>
